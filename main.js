@@ -19,12 +19,6 @@ function displayNumbers() {
     numberList.innerHTML = numbers.map(num => `<li>${num}</li>`).join(', ');
 }
 
-function displayMinimum() {
-    const minimumResult = document.getElementById('minimumResult');
-    const minimum = Math.min(...numbers);
-    minimumResult.textContent = `Minimum: ${minimum}`;
-}
-
 function displayMaximum() {
     const maximumResult = document.getElementById('maximumResult');
     const maximum = Math.max(...numbers);
