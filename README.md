@@ -1,0 +1,1 @@
+Szoftverteszteles git gyakorlas
